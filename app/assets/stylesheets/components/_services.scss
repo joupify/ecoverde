@@ -1,0 +1,26 @@
+/* app/javascript/components/services/services.scss */
+
+.services-card {
+    display: flex;
+    align-items: center; /* Align text vertically with image */
+    padding: 20px;
+  }
+  
+  .services-card .card-img {
+    flex: 0 0 400px; /* Set the width of the image */
+    height: 450px; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+    margin-right: 20px; /* Add some spacing between image and text */
+  }
+  
+  .services-card .card-body {
+    flex: 1; /* Let the text take remaining width */
+  }
+  
+
+.services-container {
+    margin-top: 150px; /* Adjust this value as needed */
+  }
+  
+  /* Adjust the padding of the form to ensure all fields are visible */
+  
