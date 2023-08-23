@@ -1,0 +1,23 @@
+/* Adjust the padding and alignment of the account dropdown */
+.nav-item.dropdown .nav-link {
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Position the dropdown menu properly */
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%; /* Adjust this value to position the menu correctly */
+    left: 0;
+    right: auto;
+  }
+  
+  /* Style the dropdown items */
+  .nav-item.dropdown .dropdown-menu {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  

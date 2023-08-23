@@ -25,6 +25,8 @@ gem "bootstrap"
 gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
+gem "importmap-rails"
+
 
 
 
@@ -85,4 +87,3 @@ group :test do
   gem "webdrivers"
 end
 
-gem "importmap-rails", "~> 1.2"

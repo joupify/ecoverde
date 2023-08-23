@@ -1,17 +1,19 @@
-
+/* Footer Styles */
 .footer {
-  background: #F4F4F4;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #f4f4f4;
   height: 100px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
+
 .footer-links {
   display: flex;
   align-items: center;
 }
+
 .footer-links a {
   color: rgb(43, 80, 226);
   opacity: 0.15;
@@ -19,9 +21,31 @@
   font-size: 24px;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   opacity: 1;
 }
+
 .footer .fa-heart {
-  color: #D23333;
+  color: #d23333;
+}
+
+/* Additional Styles for Contact Info */
+.footer-contact {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  margin-top: 10px; /* Add spacing between icons and contact info */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column; /* Stack items vertically on small screens */
+    align-items: flex-start; /* Align items to the left on small screens */
+    padding: 15px; /* Adjust padding for small screens */
+  }
+
+  .footer-links {
+    margin-top: 10px; /* Add spacing between social icons and contact info */
+  }
 }

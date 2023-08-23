@@ -264,7 +264,7 @@ DEPENDENCIES
   debug
   devise
   font-awesome-sass
-  importmap-rails (~> 1.2)
+  importmap-rails
   jbuilder
   jsbundling-rails
   letter_opener
